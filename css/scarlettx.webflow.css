@@ -382,8 +382,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 4%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -767,7 +767,8 @@ p {
 }
 
 .div-block-4 {
-  margin-top: 5%;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 
 .link-5 {
@@ -1026,11 +1027,17 @@ p {
     -ms-transform: scale(1.01);
     transform: scale(1.01);
   }
+  .content_teach {
+    height: auto;
+  }
   .teach1_div {
     margin-top: 10%;
   }
+  .content_other {
+    margin-top: 10%;
+  }
   .dance_div {
-    margin-top: 25%;
+    margin-top: 20%;
   }
   .theater_div {
     -webkit-box-align: center;
@@ -1052,7 +1059,7 @@ p {
     margin-right: 0%;
   }
   .div-block-4 {
-    margin-top: 50%;
+    margin-top: 30%;
   }
   .heading-8 {
     font-size: 35px;
@@ -1071,7 +1078,7 @@ p {
     margin-left: 0%;
   }
   .down_button {
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
     margin-left: 0px;
   }
   .menu_div {
@@ -1107,8 +1114,8 @@ p {
     margin-top: 0%;
   }
   .content_proj1 {
-    margin-top: 20%;
-    margin-bottom: 5%;
+    margin-top: 25%;
+    margin-bottom: 0%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1278,6 +1285,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 35vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1308,16 +1316,19 @@ p {
   src: url('../fonts/fa-brands-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Fa solid 900';
   src: url('../fonts/fa-solid-900.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Permanentmarker';
   src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
